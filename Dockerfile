@@ -5,7 +5,7 @@ WORKDIR /opt/coin
 
 EXPOSE 12789
 
-RUN apt-get update && apt-get install -y wget unzip
+RUN apt-get update && apt-get install -y wget unzip python
 RUN wget https://github.com/CloakProject/CloakCoin/releases/download/2.2.2.2/Linux-cloakcoin-rEvolution-2x4-setup.zip -O coin.zip && unzip coin.zip
 
 # cleanup
