@@ -1,4 +1,4 @@
-# imagecoin-docker
+# cloakcoin-docker
 Dockerfile for CloakCoin (<https://github.com/CloakProject/CloakCoin>)
 
 
