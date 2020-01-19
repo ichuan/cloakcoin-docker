@@ -10,7 +10,7 @@ RUN wget https://github.com/CloakProject/CloakCoin/releases/download/2.2.2.2/Lin
 
 # cleanup
 RUN apt remove -y wget unzip && apt autoremove -y && apt autoclean
-RUN rm -rf /var/lib/apt/lists/* /opt/cloakcoin-qt
+RUN rm -rf /var/lib/apt/lists/* /opt/coin/{cloakcoin-qt,coin.zip}
 
 VOLUME ["/opt/coin/data", "/opt/coin/coin.conf"]
 
